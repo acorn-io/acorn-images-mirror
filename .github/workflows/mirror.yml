@@ -12,6 +12,8 @@ jobs:
     strategy:
       matrix:
         include:
+          - image: aws-observability/aws-for-fluent-bit
+            repo: public.ecr.aws
           - image: alpine
             repo: docker.io
           - image: busybox
